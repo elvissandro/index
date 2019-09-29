@@ -1,0 +1,110 @@
+.modal-body2 {
+  text-align: justify;
+  color: gray;
+  font-weight: bold;
+}
+
+.modal-title2 {
+  color: blue;
+  font-weight: bold;
+}
+
+.image-small {
+  width: 100px;
+}
+
+.image-normal {
+  width: 100%;
+}
+
+/* Options nexus7 */
+.device-mockup.nexus7,
+.device-mockup.nexus7.portrait {
+	padding-bottom: 156.521739%;
+}
+
+.device-mockup.nexus7.landscape {
+	padding-bottom: 63.6678201%;
+}
+
+.device-mockup.nexus7 > .device,
+.device-mockup.nexus7.portrait > .device {
+	background-image: url("../img/nexus7_port.png");
+}
+
+.device-mockup.nexus7.landscape > .device {
+	background-image: url("../img/nexus7_land.png");
+}
+
+.device-mockup.nexus7 > .device > .screen,
+.device-mockup.nexus7.portrait > .device > .screen {
+	top: 13.1365741%; bottom: 12.7893519%; left: 13.7681159%; right: 13.7681159%;
+}
+
+.device-mockup.nexus7.landscape > .device > .screen {
+	top: 13.7681159%; bottom: 13.7681159%; left: 13.0911188%; right: 13.0911188%;
+}
+
+/* Style General nexus7 */
+.device-mockup {
+ position: relative;
+ width: 100%;
+ padding-bottom: 61.775701%;
+}
+
+ .device-mockup > .device {
+   position: absolute;
+   top: 0; bottom: 0; left: 0; right: 0;
+   width: 100%; height: 100%;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-image: url("../img/nexus7_port.png");
+ }
+
+   .device-mockup > .device > .screen {
+     position: absolute;
+     top:    11.0438729%;
+     bottom: 14.6747352%;
+     left:   13.364486%;
+     right:  13.364486%;
+     overflow: hidden;
+   }
+
+   .device-mockup > .device > .button {
+     position: absolute;
+     top: 0; left: 0;
+     display: none;
+     overflow: hidden;
+     border-radius: 100%;
+     -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+     cursor: pointer;
+   }
+
+/* Device nexus7 */
+.device-mockup[data-device="nexus7"],
+.device-mockup[data-device="nexus7"][data-orientation="portrait"] {
+ padding-bottom: 156.521739%;
+}
+
+.device-mockup[data-device="nexus7"][data-orientation="landscape"] {
+ padding-bottom: 63.6678201%;
+}
+
+.device-mockup[data-device="nexus7"] > .device,
+.device-mockup[data-device="nexus7"][data-orientation="portrait"] > .device {
+ background-image: url("../img/nexus7_port.png");
+}
+
+.device-mockup[data-device="nexus7"][data-orientation="landscape"] > .device {
+ background-image: url("../img/nexus7_land.png");
+}
+
+.device-mockup[data-device="nexus7"] > .device > .screen,
+.device-mockup[data-device="nexus7"][data-orientation="portrait"] > .device > .screen {
+ top: 13.1365741%; bottom: 12.7893519%; left: 13.7681159%; right: 13.7681159%;
+}
+
+.device-mockup[data-device="nexus7"][data-orientation="landscape"] > .device > .screen {
+ top: 13.7681159%; bottom: 13.7681159%; left: 13.0911188%; right: 13.0911188%;
+}
